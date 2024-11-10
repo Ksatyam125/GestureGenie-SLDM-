@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+.form-style {
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 16px;
+}
+
+.form-style h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: -16px -16px 16px -16px;
+  color: #feda6a;
+}
+
+.form-style .contact-info {
+  color: #feda6a;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.form-style .contact-details {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+  color: #feda6a;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.form-style .thank-you {
+  color: #feda6a;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+</style>
+
+<div class="form-style">
+  <h1>Contact Us</h1>
+  <p class="contact-info">For any queries regarding this website, please contact us using the following details:</p>
+  <ul class="contact-details">
+    <li>Email: shresthamishra9162@gmail.com</li>
+    <li>Contact number: 9162909095</li>
+  </ul>
+  <hr>
+  <p class="thank-you">Thank you for visiting our website!</p>
+</div>
+{% endblock %}
